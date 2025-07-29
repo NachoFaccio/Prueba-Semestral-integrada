@@ -131,8 +131,6 @@ public class EscanerRed {
     ya que es la IP del dispositivo donde se está ejecutando este programa.*/
 if (contador == 0){
         System.out.println("No se detecto ningun dispositivo en esta red");
-    }else{ 
-                System.out.println("\nAdemas de los dispositivos detectados, la IP local: " + ipLocal + " tambien esta conectada a la red, ya que es la IP del dispositivo donde se esta ejecutando este programa.");
-            }
+    }
     }
 }
